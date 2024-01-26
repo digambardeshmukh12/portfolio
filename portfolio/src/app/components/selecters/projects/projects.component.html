@@ -1,0 +1,28 @@
+
+<!-- home.component.html -->
+
+<div class="container content">
+
+   <div clsass="sentenses">
+    <div class="letter-animation">
+        <span>Welcome&nbsp;&nbsp;</span>
+        <span>To&nbsp;&nbsp;</span>
+        <span>Dead&nbsp;&nbsp;</span>
+        <span>Programmers&nbsp;&nbsp;</span>
+        <span>Society&nbsp;&nbsp;</span>
+       
+    </div>
+    <div class="sentence-container">
+        <span class="word">We&nbsp;&nbsp;</span>
+        <span class="word">Are&nbsp;&nbsp;</span>
+        <span class="word">Dead&nbsp;&nbsp;</span>
+        <span class="word">Programmers&nbsp;&nbsp;</span>
+     </div>
+   </div>
+    
+   <div class="image-container" [ngClass]="{'loaded': imageLoaded}">
+    <img #image src="../../../../assets/sekke.png" alt="Animated Image" (load)="onImageLoad()">
+  </div>
+  
+   </div>
+  

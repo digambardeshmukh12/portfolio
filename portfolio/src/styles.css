@@ -2,3 +2,12 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@font-face {
+    font-family: 'Fontone';
+    src: url('../src/assets/Nosifer-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'Fonttwo';
+    src: url('../src/assets/PermanentMarker-Regular.ttf');
+  }
