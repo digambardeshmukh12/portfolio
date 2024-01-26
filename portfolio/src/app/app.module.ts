@@ -5,15 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './components/home/home.component';
-import { ProjectsdetailsComponent } from './components/projectsdetails/projectsdetails.component';
-import { ProjectsComponent } from './components/selecters/projects/projects.component';
+ import { ProjectsComponent } from './components/selecters/projects/projects.component';
+import { ProfileCardsComponent } from './components/selecters/profile-cards/profile-cards.component';
+import { FooterComponent } from './components/selecters/footer/footer.component';
+import { ProjectCardsComponent } from './components/selecters/project-cards/project-cards.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ProjectsdetailsComponent,
-    ProjectsComponent
+     ProjectsComponent,
+    ProfileCardsComponent,
+    FooterComponent,
+    ProjectCardsComponent
   ],
   imports: [
     BrowserModule,
