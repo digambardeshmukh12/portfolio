@@ -20,13 +20,11 @@
 
 /* Style for the container */
 .sentence-container {
-    font-size: 30px;
-    color: red;
-    margin-top: 30px;
-    font-family :Fontone;
-    white-space: nowrap;
-    overflow: hidden;
-}
+    font-size: 50px;
+    color: rgb(153, 77, 77);
+     font-family :Fontone;
+     margin-top: 50px;
+  }
 
 
 
@@ -46,12 +44,11 @@
   
   
   .letter-animation {
-    font-size: 30px;
+    font-size: 35px;
     color: red;
     font-family :Fontone;
+    
 
-    white-space: nowrap;
-    overflow: hidden;
 }
 
 .letter-animation span {
