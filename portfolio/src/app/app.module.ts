@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ProfileCardsComponent } from './components/selecters/profile-cards/profile-cards.component';
 import { FooterComponent } from './components/selecters/footer/footer.component';
 import { ProjectCardsComponent } from './components/selecters/project-cards/project-cards.component';
+import {MatChipsModule} from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProjectCardsComponent } from './components/selecters/project-cards/proj
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

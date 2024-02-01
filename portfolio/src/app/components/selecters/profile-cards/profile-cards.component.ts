@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./profile-cards.component.css']
 })
 export class ProfileCardsComponent {
-
+obj = [1 ,2,3,4]
 }
