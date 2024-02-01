@@ -1,0 +1,24 @@
+/* app.component.css */
+
+.cards-wrapper {
+    display: flex;
+    /* overflow-x: auto; */
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    width: 100%;
+    overflow-x: hidden;
+
+  }
+  
+  .card {
+    display: inline-flex;
+    place-content: center;
+    background-color: #d0f0ee;
+    color: #15928a;
+    font-size: 1.5rem;
+    height: 20rem;
+    min-width: 36rem; 
+   
+    margin-right: 1rem;
+  }
+  

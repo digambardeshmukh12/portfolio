@@ -1,1 +1,14 @@
-<p>project-cards works!</p>
+<!-- app.component.html -->
+
+<!-- <section>
+    <h2>Horizontal Scrolling Cards</h2>
+    <div class="cards-wrapper" (mouseenter)="stopAutoScroll()" (mouseleave)="startAutoScroll()" #cardsWrapper>
+      <div class="card" *ngFor="let card of cards">Card {{ card }}</div>
+    </div>
+  </section> -->
+  <marquee #marquee width="60%" direction="right" height="100px" (mouseover)="stopMarquee()" (mouseout)="startMarquee()">
+    <div class="card" *ngFor="let card of cards">Card {{ card }}</div>
+  </marquee>
+  
+
+  
